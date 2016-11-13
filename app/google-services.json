@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "922568863187",
+    "firebase_url": "https://teameverest-c79b9.firebaseio.com",
+    "project_id": "teameverest-c79b9",
+    "storage_bucket": "teameverest-c79b9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:922568863187:android:f8652fecb27c589f",
+        "android_client_info": {
+          "package_name": "com.tm.teameverest"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "922568863187-l06akk4j78fe4236j2o9gma3c9qta23g.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.tm.teameverest",
+            "certificate_hash": "0D86F92A132CCEE935A35BDC97A958BCFB8A5599"
+          }
+        },
+        {
+          "client_id": "922568863187-27gbbnek5580ujuletrs8obd4sjmcke3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA2rgtMvnXGTElgQmIus1SFndk29kobsWs"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "922568863187-27gbbnek5580ujuletrs8obd4sjmcke3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,46 @@
+<resources>
+    <string name="app_name">TeamEverest</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+
+    <string name="about_us">About Us</string>
+    <string name="home">Home</string>
+    <string name="blog">Blogs</string>
+    <string name="app_invite">App Invite</string>
+    <string name="contact_us">Contact Us</string>
+
+
+    <!--about us-->
+
+    <string name="about_us_title">Team Everest was started in August, 2006</string>
+
+    <string name="about_us_description">Our first activity was to collect around Rs. 4000 from four people who contributed it from their first month’s salary. We donated uniforms and notebooks to few students in a rural school in Sirumoor (Tiruvannamalai Dt, Tamilnadu, India). From there on, we have grown from strength to strength. More than nine years have passed and now we have 9500+ Volunteers helping people across India by giving time, their skills and money. We love volunteering. Our objective is to promote volunteering by motivating individuals to volunteer atleast once a month (12/365) and make a difference by providing quality education to less privileged children through volunteering.</string>
+
+    <!--contact us-->
+
+    <string name="contact_line_1">To get our weekly updates on WhatsApp, WhatsApp as \'Update Me\' with your name and city to our Everest Help desk No: +91 89399 12365</string>
+    <string name="contact_line_2">If you want to know more details, volunteer, donate or have any comments, feedback or queries, reach us via the below widget or mail us at info@teameverestindia.org.</string>
+    <string name="find_us">Find Us</string>
+
+    <string name="allow_notifications">Allow Notifications</string>
+    <string name="send_invite">Send Invite</string>
+
+
+    <string name="email_address">Email Address *</string>
+    <string name="name">Name *</string>
+    <string name="mobile_number">Mobile Number *</string>
+    <string name="sex">Sex: *</string>
+    <string name="male">Male</string>
+    <string name="female">Female</string>
+    <string name="date_of_birth">Date of Birth *</string>
+    <string name="city">City *</string>
+    <string name="contact_address">Contact Address</string>
+    <string name="add_bio">Add Bio</string>
+    <string name="any_comments">Any Comments</string>
+    <string name="not_yet_registered_signup">Not Yet Registered? <b>SignUp</b></string>
+
+</resources>

@@ -10,6 +10,7 @@ import android.view.ViewGroup;
 import android.widget.RelativeLayout;
 
 import com.tm.teameverest.DonateUsActivity;
+import com.tm.teameverest.DonationPage;
 import com.tm.teameverest.EventsActivity;
 import com.tm.teameverest.R;
 
@@ -51,7 +52,7 @@ public class Fragment_Home extends Fragment {
                     startActivity(intent);
                     break;
                 case R.id.rel_donate_us:
-                    Intent intent_donate = new Intent(getActivity(), DonateUsActivity.class);
+                    Intent intent_donate = new Intent(getActivity(), DonationPage.class);
                     startActivity(intent_donate);
                     break;
 

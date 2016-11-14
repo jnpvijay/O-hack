@@ -92,39 +92,45 @@ public class DonationPage extends AppCompatActivity {
                         os.close();
                         conn.connect();
 
-                        AlertDialog.Builder builder = new AlertDialog.Builder(DonationPage.this);
-                        builder.setTitle("Team Everest");
-                        builder.setMessage("Message Posted Successfully");
-                        builder.setPositiveButton("Ok", null);
-
-                        final AlertDialog dialog = builder.create();
-
-
-                        dialog.setOnShowListener(new DialogInterface.OnShowListener() {
+                        runOnUiThread(new Runnable() {
                             @Override
-                            public void onShow(DialogInterface dialogInterface) {
-                                final Button btnOk = dialog.getButton(AlertDialog.BUTTON_POSITIVE);
-                                btnOk.setOnClickListener(new View.OnClickListener() {
+                            public void run() {
+                                AlertDialog.Builder builder = new AlertDialog.Builder(DonationPage.this);
+                                builder.setTitle("Team Everest");
+                                builder.setMessage("Message Posted Successfully");
+                                builder.setPositiveButton("Ok", null);
+
+                                final AlertDialog dialog = builder.create();
+
+
+                                dialog.setOnShowListener(new DialogInterface.OnShowListener() {
                                     @Override
-                                    public void onClick(View view) {
-                                        dialog.dismiss();
-                                        finish();
+                                    public void onShow(DialogInterface dialogInterface) {
+                                        final Button btnOk = dialog.getButton(AlertDialog.BUTTON_POSITIVE);
+                                        btnOk.setOnClickListener(new View.OnClickListener() {
+                                            @Override
+                                            public void onClick(View view) {
+                                                dialog.dismiss();
+                                                finish();
+                                            }
+                                        });
                                     }
                                 });
+
+                                dialog.setCancelable(false);
+                                dialog.show();
                             }
                         });
 
-                        dialog.setCancelable(false);
-                        dialog.show();
 
                     } catch (Exception e) {
+                        snackbarAlertMsg("Server error found.");
                     }
                 }
             });
             t.start();
         } catch (Exception e) {
             e.printStackTrace();
-
             snackbarAlertMsg("Server error found.");
         }
 
